@@ -26,7 +26,7 @@ app.get("/api/v1/restaurants", async (req, res) => {
   }
 });
 
-//Get a Restaurant
+
 app.get("/api/v1/restaurants/:id", async (req, res) => {
   try {
     const restaurant = await db.query(
