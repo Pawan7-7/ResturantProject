@@ -54,11 +54,11 @@ const AddRestaurant = () => {
               className="custom-select"
             >
               <option disabled>Price Range</option>
-              <option value="1000">1000</option>
-              <option value="3000">3000</option>
-              <option value="5000">5000</option>
-              <option value="8000">8000</option>
-              <option value="10000">10000</option>
+              <option value="100">1000</option>
+              <option value="300">3000</option>
+              <option value="500">5000</option>
+              <option value="800">8000</option>
+              <option value="1000">10000</option>
             </select>
           </div>
           <button
